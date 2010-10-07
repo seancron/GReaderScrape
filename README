@@ -1,0 +1,8 @@
+GReaderScrape allows you to export your Google Reader items and save them to a file which you can then easily import into any bookmarking service
+
+To run the scraper:
+  * Get the urls of the folder or tag that you want to download. You can find this under "Reader Settings -> Folders and Tags -> view public page. Note: you may have to make change the tag from private to public in order to see the url for the page.
+  * Insert the urls into a file called urls.txt in the same folder as the script. Put one url on each line.
+  * Run the script with the command "python scraper.py"
+  * Wait while it downloads your items.
+  * When it's done, you should have a file called bookmarks.html that you can then import into your browser or any other bookmarking service.
