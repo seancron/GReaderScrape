@@ -1,5 +1,8 @@
 #!/usr/bin/python
 
+# This script takes a list of Google Reader urls, parses them, and outputs
+# them as a bookmarks.html file.
+
 from BeautifulSoup import BeautifulSoup
 import urllib2
 
